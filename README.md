@@ -13,38 +13,25 @@ Welcome to the Coding Club Website project! This is a collaborative project for 
 2. Clone your forked repository:
    ```bash
    git clone https://github.com/WnC-Club/clubs_website.git
+3. Install Dependencies:
+    ```bash
+    npm install
+4. Start the development server:
+    ```bash
+    npm run dev
 
-
+## Contributing
+1. Create a new branch for your feature:
+    ```bash
+    git checkout -b feature/your-feature-name
+2. Commit your changes:
+    ```bash
+    git add .
+    git commit -m "Add your feature"
+3. Push your branch:
+    ```bash
+    git push origin feature/your-feature-name
+4. Open a Pull Request:
+    - Go to the main repository and open a pull request (PR).
+    - Provide a clear description of your changes in the PR.
 ---
-
-### **3. Collaboration Setup**
-#### **Git Workflow**
-1. **Forking Workflow**:
-   - Each team member forks the main repository.
-   - They clone their forked repository to their local machine.
-   - They create feature branches for their work (`feature/feature-name`).
-   - Once done, they push their branch to their fork and create a pull request (PR) to the main repository.
-
-2. **Branch Naming Convention**:
-   - `feature/feature-name` (e.g., `feature/dark-mode`)
-   - `bugfix/issue-name` (e.g., `bugfix/login-error`)
-   - `docs/update-readme`
-
-3. **Pull Request Template**:
-   Add a `.github/PULL_REQUEST_TEMPLATE.md` file:
-   ```markdown
-   ## Description
-   Explain the purpose of this PR.
-
-   ## Changes
-   - Added a new feature
-   - Fixed a bug
-   - Updated documentation
-
-   ## Screenshots (if applicable)
-   <!-- Add screenshots to showcase your changes -->
-
-   ## Checklist
-   - [ ] I have tested my changes.
-   - [ ] My code follows the project's code style.
-   - [ ] I have updated the documentation (if applicable).
