@@ -21,6 +21,7 @@ Welcome to the Coding Club Website project! This is a collaborative project for 
     npm run dev
 
 ## Contributing
+Please also read [Contribution Guidelines](https://github.com/WnC-Club/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/WnC-Club/.github/blob/main/CODE_OF_CONDUCT.md)
 1. Create a new branch for your feature:
     ```bash
     git checkout -b feature/your-feature-name
