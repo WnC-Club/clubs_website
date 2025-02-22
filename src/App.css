@@ -1,0 +1,7 @@
+.horrow {
+    display: flex;
+    flex-direction: row;   /* Default: horizontal */
+    /* flex-direction: column;   Vertical layout */
+    /* flex-direction: row-reverse;  Reverse row */
+    /* flex-direction: column-reverse;  Reverse column */
+  }
