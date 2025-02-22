@@ -1,13 +1,16 @@
 import './App.css'
+import Footer from "./footer"
+import './f1-1.css'
 
 function App() {
 
   return (
-    <>
-      <div>
-          <h1 className='text-6xl text-red-600'>testing</h1>
-      </div>
-    </>
+    
+      <div className='f1'>
+        <Footer/>
+        
+         </div>
+    
   )
 }
 
