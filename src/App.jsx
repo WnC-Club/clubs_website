@@ -1,19 +1,23 @@
 import './App.css'
-import Footer from "./Footer";
+import OfficeBearers from "./Office";
+import Footers from "./Footer";
+
 
 
 import './f1-1.css'
 
 function App() {
-
   return (
-    
-      <div className='f1'>
-        <Footer/>
-        
-         </div>
-    
-  )
+      <div>  {/* Added a parent div */}
+          <div className="f1">
+              <OfficeBearers/>
+          </div>
+          <div className="f2">
+              <Footers/>
+          </div>
+      </div>
+  );
 }
 
-export default App
+export default App;
+
