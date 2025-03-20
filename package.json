@@ -37,5 +37,8 @@
     "globals": "^15.14.0",
     "postcss": "^8.5.1",
     "vite": "^6.1.0"
+  },
+  "resolutions": {
+    "swiper": "^latest"
   }
 }
