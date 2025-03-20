@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './f1-1.css';
 import { FaDiscord, FaFacebookF, FaGlobe, FaInstagram, FaTwitter , FaCode } from 'react-icons/fa';
 
