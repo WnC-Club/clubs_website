@@ -1,6 +1,6 @@
 import './App.css'
 import OfficeBearers from "./Office";
-import Footers from "./Footer";
+import Footer from "./Footer";
 
 
 
@@ -13,7 +13,7 @@ function App() {
               <OfficeBearers/>
           </div>
           <div className="f2">
-              <Footers/>
+              <Footer/>
           </div>
       </div>
   );
