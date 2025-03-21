@@ -35,12 +35,12 @@ const Office = () => {
       </div>
 
       <div className="relative flex flex-col items-center justify-center p-10">
-        {/* 🌟 Office Bearers Title */}
+        {/*  Office Bearers Title */}
         <h2 className="text-6xl font-extrabold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-[#ff7eb3] via-[#facc15] to-[#9333ea] drop-shadow-lg mb-10">
           OFFICE BEARERS
         </h2>
 
-        {/* 🚀 Swiper Carousel */}
+        {/*  Swiper Carousel */}
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
@@ -67,7 +67,7 @@ const Office = () => {
                 <h3 className="mt-3 font-bold text-lg">{member.name}</h3>
                 <p className="text-sm text-white/80">{member.role}</p>
 
-                {/* 🔗 LinkedIn Button */}
+                {/*  LinkedIn Button */}
                 <a
                   href={member.linkedin}
                   target="_blank"
